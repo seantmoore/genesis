@@ -15,15 +15,15 @@ I don't write bash scripts often, so I'm sure the script will horrify anyone who
 
 ## Things to note
 
-First thing to note is that this script, as is, should be used for DEVELOPMENT only. It sets up things using a lot of the defaults and probably with bad practices.
+- First thing to note is that this script, as is, should be used for DEVELOPMENT only. It sets up things using a lot of the defaults and probably with bad practices.
 
-This script assumes a clean Ubuntu 14.04 install with a user other than root that has sudo access.
+- This script assumes a clean Ubuntu 14.04 install with a user other than root that has sudo access.
 
-There are two variables at the top DJANGO_PROJECT_NAME and POSTGRES_DB_NAME. These should be edited to reflect what you want to call your project and your database.
+- There are two variables at the top DJANGO_PROJECT_NAME and POSTGRES_DB_NAME. These should be edited to reflect what you want to call your project and your database.
 
-The main database is set up with "postgres" as the main user so no DB permissions or users need to be set up. This also is not the way you should set up Postgres in a production environment.
+- The main database is set up with "postgres" as the main user so no DB permissions or users need to be set up. This also is not the way you should set up Postgres in a production environment.
 
-Step 2 from the guide is skipped. This script assumes a clean slate and therefore no need for virtualenv.
+- Step 2 from the guide is skipped. This script assumes a clean slate and therefore no need for virtualenv.
 
 ## Zero to Django (step by step)
 
